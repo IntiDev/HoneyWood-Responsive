@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  background: gray;
+  padding: 2%;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  width: 50%;
+}
+li>a{
+  text-decoration: none;
+  color: white;
+}
+.fondoImg{
+  width: 100%;
+  background-image: url(../assets/img/gallinas.png);
+}
+.fondoImg>h1{
+  text-align: center;
+  padding-top: 40%;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 5em;
+}
