@@ -1,6 +1,7 @@
 *{
   padding: 0;
   margin: 0;
+  font-family: 'Amatic SC', cursive;
 }
 
 header{
@@ -8,7 +9,6 @@ header{
   background: rgba(198, 181, 205, 0.8);
   padding: 2%;
   width: 100%;
-  font-family: 'Amatic SC', cursive;
   font-size: 2em;
   font-weight: 400;
 }
@@ -27,12 +27,16 @@ li>a{
   padding: 2%;
 }
 
+li>a:hover{
+  color: purple;
+}
+
 li>img{
   width: 20%;
 }
 
-li>a:hover{
-  color: purple;
+li:last-child{
+  display: none;
 }
 
 .fondoImg{
@@ -55,7 +59,6 @@ li>a:hover{
 .fondoImg>p{
   text-align: center;
   color: purple;
-  font-family: 'Amatic SC', cursive;
   font-size: 2em;
 }
 .fa-heart-o{
@@ -71,7 +74,6 @@ li>a:hover{
 
 .producto>h1, .video>h1, .formulario>h1{
   text-align: center;
-  font-family: 'Amatic SC', cursive;
   font-size: 2.5em;
   color: #8CB60A;
   padding: 2%;
@@ -128,12 +130,34 @@ li>a:hover{
 .formulario section{
   display: flex;
   justify-content: center;
+  padding: 3%;
 }
 .contenedorForm{
   display: flex;
   flex-direction: column;
   width: 45%;
 }
+input, textarea{
+  padding: 2%;
+  margin: 2%;
+}
 .contenedorForm button{
-
+  align-self: center;
+  border-radius: 50%;
+  border: 0px;
+  width: 15%;
+  height: 25%;
+  background: #23C2C9;
+  color: white;
+  font-size: 1.5em;
+}
+.contenedorForm button:hover{
+  background: #953993;
+}
+footer{
+  text-align: center;
+  padding:2%;
+  background:#D5F476;
+  color: #96C30C;
+  font-size: 2em;
 }

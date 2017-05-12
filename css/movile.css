@@ -1,0 +1,27 @@
+@media(max-width: 720px){
+  li{
+    display:none;
+  }
+  nav{
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+  }
+  li:last-child{
+    display:flex;
+    color: white;
+  }
+  .producto{
+    display: none;
+  }
+  .video{
+    background: none;
+  }
+  .formulario{
+    background-image: url(../assets/img/tarjeta.jpg);
+    background-size: cover;
+  }
+  footer{
+    font-size: 1.3em;
+  }
+}
