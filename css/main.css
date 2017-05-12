@@ -3,28 +3,49 @@
   margin: 0;
 }
 header{
-  background: gray;
+  position: fixed;
+  background: rgba(198, 181, 205, 0.7);
   padding: 2%;
+  width: 100%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+  font-weight: 400;
 }
 nav{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   list-style: none;
-  width: 50%;
+  width: 70%;
 }
 li>a{
   text-decoration: none;
   color: white;
+  padding: 2%;
+}
+li>img{
+  width: 20%;
+}
+li>a:hover{
+  color: purple;
 }
 .fondoImg{
   width: 100%;
-  background-image: url(../assets/img/gallinas.png);
+  height: 700px;
+  background-image: url(../assets/img/inicio.jpg);
+  background-size: cover;
 }
+
 .fondoImg>h1{
   text-align: center;
-  padding-top: 40%;
-  color: white;
-  font-family: 'Pacifico', cursive;
+  color: purple;
+  font-family: 'Dawning of a New Day', cursive;
   font-size: 5em;
+}
+
+.fondoImg>p{
+  text-align: center;
+  color: purple;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
 }
