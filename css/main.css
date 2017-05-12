@@ -35,7 +35,7 @@ li>img{
   width: 20%;
 }
 
-li:last-child{
+nav>li:last-child{
   display: none;
 }
 
@@ -160,4 +160,16 @@ footer{
   background:#D5F476;
   color: #96C30C;
   font-size: 2em;
+}
+.contenedorFooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contenedorFooter>li{
+  list-style: none;
+  padding: 1.5% 3%;
+}
+.contenedorFooter>li:hover{
+  color: white;
 }
