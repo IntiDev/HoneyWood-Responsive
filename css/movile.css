@@ -21,6 +21,14 @@
     background-image: url(../assets/img/tarjeta.jpg);
     background-size: cover;
   }
+  .formulario button{
+    width: 20%;
+    height: 20%;
+    font-size: 1em;
+  }
+  .formulario h1{
+    color: white;
+  }
   footer{
     font-size: 1.3em;
   }
